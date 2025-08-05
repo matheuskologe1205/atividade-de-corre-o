@@ -1,6 +1,9 @@
 .azul{
 	color: #333;
 }
+.branco{
+	color: white;
+}
 .padding15{
 	    padding: 15px;
 }
@@ -10,22 +13,19 @@
 .font-family{
     font-family: Arial, sans-serif;
 }
+.background-color{
+    background-color: #333;
+}
 body {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-}
-
 header h1 {
     font-size: 28px;
-    color: white;
 }
 
 nav a {
-    color: white;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -36,7 +36,6 @@ section {
 
 section h2 {
     font-size: 22px;
-    font-family: Arial, sans-serif;
 }
 
 section div {
@@ -47,19 +46,14 @@ section div {
 
 section div h3 {
     font-size: 18px;
-    font-family: Arial, sans-serif;
-    color: #333;
 }
 
 section div p {
-    font-family: Arial, sans-serif;
     color: #555;
 }
 
 section div button {
     padding: 10px 15px;
-    background-color: blue;
-    color: white;
     border: none;
     cursor: pointer;
 }
@@ -72,7 +66,6 @@ aside {
 
 aside h2 {
     font-size: 20px;
-    font-family: Arial, sans-serif;
 }
 
 aside ul {
@@ -81,7 +74,6 @@ aside ul {
 }
 
 aside ul li {
-    font-family: Arial, sans-serif;
     color: #555;
     margin-bottom: 5px;
 }
@@ -92,6 +84,3 @@ footer {
     text-align: center;
 }
 
-footer p {
-    font-family: Arial, sans-serif;
-}
